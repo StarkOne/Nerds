@@ -32,13 +32,20 @@ header{
         padding: 0 22px;
         text-transform:uppercase;
         font-weight: bold;
+        &:hover{
+            color: #fb565a;
+        }
+        &:active{
+            color:#cbcbcb;
+        }
         
     }
 }
 .header__basket{
     display: inline-block;
     float: right;
-    padding: 55px 0 0 35px;
+    padding: 55px 0 0 0;
+    
     a{
         font-size: 14px;
         line-height: 30px;
@@ -47,6 +54,17 @@ header{
         font-family: "RobotoRegular" sans-serif;
         text-transform:uppercase;
         font-weight: bold;  
+        display: block;
+        padding-left: 35px;
+        background: url("img/basket.png") no-repeat  9px 6px;
+        &:hover{
+            background-position: 8px -146px;
+            color: #fb565a;
+        }
+        &:active{
+            background-position: 9px -299px;
+            color:#cbcbcb;
+        }
     }  
 }
 .header__top{
@@ -71,6 +89,16 @@ header{
 .header__slider_right{
     width: 340px;
     float: right;
+    
+    &::after{
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 10px;
+        background: url(img/slider-icon.png) no-repeat;
+        bottom: 83px;
+        left: 796px;
+    }
 }
 .header_btn_main{
     color: #fff;
@@ -91,15 +119,5 @@ header{
         text-decoration: none;
         background-color: #b63538;
         color:#fff;
-    }
-    
-    &::after{
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 10px;
-        background: url(img/slider-icon.png) no-repeat;
-        bottom: 16px;
-        left: 425px;
     }
 }
