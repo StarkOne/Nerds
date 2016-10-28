@@ -1,5 +1,4 @@
-@import "bourbon"
-@import "vars"
+@import "vars";
 
 *::-webkit-input-placeholder{
 	color: #666;
@@ -30,6 +29,10 @@ body{
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: $default-font;
 	overflow-x: hidden;
+}
+.main{
+    width: 900px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
