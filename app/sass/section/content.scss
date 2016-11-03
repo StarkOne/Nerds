@@ -36,6 +36,7 @@ p,h1,h2,h3,h4{
     &:hover{
         color: #fff;
         text-decoration: none;
+        background-color: #d6494d;
     }
     &:active{
         color: #fff;
@@ -46,10 +47,18 @@ p,h1,h2,h3,h4{
     }
 }
 .app{
-        background-color: #01a25e;
+    background-color: #00ca74;
+    
+    &:hover{
+        background-color:#01a25e;
+    }
 }
 .presentations{
-        background-color: #efc84a;
+    background-color: #efc84a;
+        
+    &:hover{
+        background-color:#d6ae2c;
+    }
 }
 .about-title{
     font-size: 18px;
