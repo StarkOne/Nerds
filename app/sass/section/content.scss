@@ -180,4 +180,36 @@ p,h1,h2,h3,h4{
 }
 .map{
   text-align: center;
+    position: relative;
+}
+.position{
+    width: 250px;
+    min-height: 240px;
+    text-align:left;
+    box-shadow: 1px 1px 5px #bbb;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    background: #fff;
+}
+.position-tiile{
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.position-desc{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.position-phone{
+    font-size: 16px;
+    line-height: 20px;
+}
+.me-map{
+    margin-top: 28px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
 }
